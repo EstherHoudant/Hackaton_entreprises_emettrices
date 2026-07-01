@@ -4,11 +4,7 @@ extract_icpe.py — Extraction automatisée des données ICPE depuis Géorisques
 Récupère la liste de tous les établissements via l'API, télécharge les fichiers
 Excel associés et les consolide en un seul CSV.
 
-Usage:
-    python extract_icpe.py
 
-Dépendances:
-    pip install requests pandas xlrd tqdm
 """
 
 import os
