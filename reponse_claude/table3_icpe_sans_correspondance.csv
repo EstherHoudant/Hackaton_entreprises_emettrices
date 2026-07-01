@@ -1,0 +1,162 @@
+Code_ICPE,Libelle_ICPE,Raison
+1312,Mise en œuvre de produits explosifs à des fins industrielles,Classe/activité explosifs — aucun explosif dans la liste des composants
+1413,"Installations de remplissage de réservoirs de gaz naturel ou biogaz, sous pression",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1414,Installations de remplissage ou de distribution de gaz inflammables liquéfiés,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1416,Station services (hydrogène),Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1421,Installation de remplissage d'aérosols inflammables,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1434,Installations de remplissage ou de distribution de liquides inflammables,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1435,Stations-service,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1436,Liquides de point éclair compris entre 60°C et 93°C,Catégorie définie par le point éclair — dépend de la propriété physique de chaque liquide
+1450,Solides inflammables,Catégorie 'solides inflammables' — dépend de la classification CLP
+1510,"Stockage de matières, produits ou substances combustibles dans des entrepôts couverts",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1511,Entrepôts frigorifiques,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+1716,Substances radioactives,Substances/déchets radioactifs — aucun composant radioactif dans la liste
+1735,"Dépôt, entreposage ou stockage de substances radioactives",Substances/déchets radioactifs — aucun composant radioactif dans la liste
+2101,Élevage de bovins,Activité d'élevage — aucun animal vivant dans la liste des composants
+2102,Élevage de porcs,Activité d'élevage — aucun animal vivant dans la liste des composants
+2110,Élevage de lapins,Activité d'élevage — aucun animal vivant dans la liste des composants
+2111,Élevage de volailles,Activité d'élevage — aucun animal vivant dans la liste des composants
+2112,Couvoirs,Activité d'élevage — aucun animal vivant dans la liste des composants
+2113,Élevage d'animaux carnassiers à fourrure,Activité d'élevage — aucun animal vivant dans la liste des composants
+2120,Élevage de chiens,Activité d'élevage — aucun animal vivant dans la liste des composants
+2130,Piscicultures,Activité d'élevage — aucun animal vivant dans la liste des composants
+2140,Présentation au public d'animaux d'espèces non domestiques,Activité d'élevage — aucun animal vivant dans la liste des composants
+2150,"Élevage de coléoptères, diptères, orthoptères",Activité d'élevage — aucun animal vivant dans la liste des composants
+2160,"Silos et installations de stockage de céréales, grains, produits alimentaires ...",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2170,"Fabrication des engrais, amendement et support de culture",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2175,Dépôts d'engrais liquides,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2210,Abattage d'animaux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2220,Préparation de produits alimentaires d'origine végétale,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2221,Préparation de produits alimentaires d'origine animale,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2230,Transformation etc. du lait,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2250,Production par distillation d'alcools de bouche d'origine agricole,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2251,"Préparation, conditionnement de vins",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2260,"Broyage, concassage de substances végétales",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2265,Fermentation acétique en milieu liquide,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2275,Fabrication de levure et [...],Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2311,"Traitement par battage, cardage, lavage etc. de fibres d'origine végétale",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2315,Fabrication de fibres végétales artificielles,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2321,Atelier de fabrication de tissus,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2330,"Teinture, impression, apprêt, enduction, blanchiment et délavage de matières textiles",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2340,"Blanchisserie, laverie de linge",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2345,Utilisation de solvants pour le nettoyage à sec et le traitement de textiles ou vêtements,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2350,"Tanneries, mégisseries, ...",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2351,Teintureries et pigmentation de peaux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2355,Dépôts de peaux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2360,"Fabrication de chaussures, maroquinerie ou travail du cuir",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2415,Mise en œuvre de produits de préservation de bois et matériaux dérivés,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2420,Fabrication de charbon de bois,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2430,Préparation de la pâte à papier,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2450,Imprimeries ou ateliers de reproduction graphique sur tout support,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2510,Exploitation de carrières,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2515,"Broyage, concassage, criblage ... de pierres, cailloux, minerais et autres produits minéraux naturels ou artificiels ou de déchets non dangereux inertes",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2516,Station de transit de produits minéraux pulvérulents,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2517,Station de transit de produits minéraux autres,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2524,"Taillage, sciage et polissage de minéraux naturels ou artificiels",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2531,Travail chimique du verre ou du cristal,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2540,"Lavoirs à houille, minerais, minéraux ou résidus métallurgiques",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2541,"Agglomération de houille, minerai de fer, fabrication de graphite artificiel – Grillage ou frittage de minerai métallique",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2546,"Traitement industriel des minerais non ferreux, élaboration des métaux et alliages non ferreux",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2547,Fabrication de silico-alliages ou carbure de silicium,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2560,Travail mécanique des métaux et alliages,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2561,"Trempé recuit, revenu des métaux et alliages",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2562,Chauffage et traitement industriels par bains de sels fondus,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2563,Nettoyage lessiviel,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2564,"Nettoyage, dégraissage, décapage de surfaces utilisant des liquides organohalogénés ou des solvants organiques",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2565,Revêtement métallique ou traitement de surfaces par voie électrolytique ou chimique,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2566,Décapage des métaux par traitement thermique,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2567,"Galvanisation, étamage de métaux",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2570,Émail,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2575,Emploi de matières abrasives,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2630,Fabrication de ou à base de détergents et savons,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2631,"Extraction par la vapeur des parfums, huiles essentielles",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2640,"Fabrication industrielle de colorants et pigments organiques, minéraux et naturels",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2660,Fabrication industrielle ou régénération de polymères,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2661,Transformation de polymères,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2663,Stockage de pneumatiques et produits composés d'au moins 50 % de polymères,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2670,Fabrication d'accumulateurs et piles,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2680,Mise en œuvre industrielle d'organismes génétiquement modifiés,Activité biotechnologique — aucun composant correspondant
+2681,Mise en œuvre industrielle de micro-organismes naturels pathogènes,Activité biotechnologique — aucun composant correspondant
+2690,Préparation de produits opothérapiques,Activité biotechnologique — aucun composant correspondant
+2710,Collecte de déchets apportés par le producteur initial,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2711,"Transit, regroupement, tri ou préparation de déchets d'équipements électriques et électroniques",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2712,"Stockage, dépollution, démontage, découpage ou broyage de véhicules hors d'usage",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2716,"Transit, regroupement, tri ou préparation de déchets non dangereux non inertes",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2719,Installation temporaire de transit de déchets issus de pollutions accidentelles marines ou fluviales ou de catastrophes naturelles,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2720,"Stockage de déchets résultant de la prospection, de l'extraction, du traitement et du stockage de ressources minérales ainsi que de l'exploitation de carrières",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2740,Incinération de cadavres d'animaux de compagnie,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2760,Stockage de déchets autres que ceux mentionnés à la rubrique 2720,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2770,Traitement thermique de déchets dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2771,Traitement thermique de déchets non dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2780,Compostage de déchets non dangereux ou matière végétale,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2781,Méthanisation de déchets non dangereux ou matière végétale,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2782,Autres traitements biologiques de déchets non dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2783,Déconditionnement de biodéchets,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2791,Traitement de déchets non dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2793,Traitement de déchets d'explosifs,Classe/activité explosifs — aucun explosif dans la liste des composants
+2795,"Lavage de fûts, conteneurs et citernes de transport de matières alimentaires, de matières dangereuses ou de déchets dangereux",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2797,Gestion des déchets radioactifs,Substances/déchets radioactifs — aucun composant radioactif dans la liste
+2798,Installation temporaire de transit de déchets radioactifs,Substances/déchets radioactifs — aucun composant radioactif dans la liste
+2910,Installation de combustion,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2915,Procédés de chauffage,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2921,Refroidissement évaporatif par dispersion d'eau dans un flux d'air,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2925,Charge d'accumulateurs,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2930,Ateliers de réparation et d'entretien de véhicules et engins à moteurs,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2931,"Ateliers d'essais sur banc de moteurs à combustion interne ou à réaction, turbines",Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2950,Traitement et développement des surfaces photosensibles,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+2980,Installation terrestre de production d'électricité à partir de l'énergie mécanique du vent,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3110,Combustion,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3210,Grillage ou frittage de minerai métallique,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3260,Traitement de surface,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3340,Fusion de matières minérales,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3410,Fabrication de produits chimiques organiques,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3420,Fabrication de produits chimiques inorganiques,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3430,Fabrication d'engrais,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3440,Fabrication de produits phytosanitaires ou biocides,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3450,Fabrication de produits pharmaceutiques,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3460,Fabrication d'explosifs,Classe/activité explosifs — aucun explosif dans la liste des composants
+3520,Incinération ou coincinération de déchets,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3531,Élimination de déchets non dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3532,Valorisation de déchets non dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3540,Installation de stockage de déchets,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3550,Stockage temporaire de déchets,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3560,Stockage souterrain de déchets dangereux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3630,Tannage des peaux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3641,Exploitation d'abattoirs,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3642,Traitement et transformation de matières premières en vue de la fabrication de produits alimentaires,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3643,Traitement et transformation du lait,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3650,Élimination ou recyclage de carcasses ou de sous-produits animaux,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3660,Élevage intensif,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+3670,Traitement de surface de matières à l'aide de solvants organiques,Rubrique d'activité — libellé sans substance spécifique rattachable à la liste
+4000,Substances et mélanges dangereux (définition et classification des),Classe de danger CLP — dépend de la classification de chaque substance
+4001,Installations présentant un grand nombre de substances,Classe de danger CLP — dépend de la classification de chaque substance
+4110,Toxicité aiguë catégorie 1,Classe de danger (toxicité aiguë) — dépend de la classification CLP de chaque substance
+4120,Toxicité aiguë catégorie 2,Classe de danger (toxicité aiguë) — dépend de la classification CLP de chaque substance
+4130,Toxicité aiguë catégorie 3 / inhalation.,Classe de danger (toxicité aiguë) — dépend de la classification CLP de chaque substance
+4140,Toxicité aiguë catégorie 3 / orale,Classe de danger (toxicité aiguë) — dépend de la classification CLP de chaque substance
+4150,Toxicité spécifique pour certains organes cibles,Classe de danger (toxicité aiguë) — dépend de la classification CLP de chaque substance
+4210,Produits explosifs,Classe/activité explosifs — aucun explosif dans la liste des composants
+4220,Produits explosifs (stockage de),Classe/activité explosifs — aucun explosif dans la liste des composants
+4240,Produits explosibles,Classe/activité explosifs — aucun explosif dans la liste des composants
+4310,Gaz inflammables catégorie 1 et 2.,Classe de danger CLP — dépend de la classification de chaque substance
+4320,Aérosols extrêmement inflammables ou inflammables [...],Classe de danger CLP — dépend de la classification de chaque substance
+4321,Aérosols extrêmement inflammables ou inflammables [...],Classe de danger CLP — dépend de la classification de chaque substance
+4330,Liquides inflammables de catégorie 1,Classe de danger CLP — dépend de la classification de chaque substance
+4331,Liquides inflammables de catégorie 2 ou catégorie 3,Classe de danger CLP — dépend de la classification de chaque substance
+4410,Substances et mélanges autoréactifs type A ou type B,Classe de danger CLP — dépend de la classification de chaque substance
+4411,"Substances et mélanges autoréactifs type C, D, E ou F",Classe de danger CLP — dépend de la classification de chaque substance
+4420,Peroxydes organiques type A ou type B,Classe de danger CLP — dépend de la classification de chaque substance
+4421,Peroxydes organiques type C ou type D,Classe de danger CLP — dépend de la classification de chaque substance
+4422,Peroxydes organiques type E ou type F,Classe de danger CLP — dépend de la classification de chaque substance
+4430,Solides pyrophoriques catégorie 1.,Classe de danger CLP — dépend de la classification de chaque substance
+4431,Liquides pyrophoriques catégorie 1,Classe de danger CLP — dépend de la classification de chaque substance
+4440,"Solides comburants catégorie 1, 2 ou 3",Classe de danger CLP — dépend de la classification de chaque substance
+4441,"Liquides comburants catégorie 1, 2 ou 3",Classe de danger CLP — dépend de la classification de chaque substance
+4442,Gaz comburants catégorie 1,Classe de danger CLP — dépend de la classification de chaque substance
+4510,Dangereux pour l'environnement aquatique 1,Classe de danger CLP — dépend de la classification de chaque substance
+4511,Dangereux pour l'environnement aquatique 2,Classe de danger CLP — dépend de la classification de chaque substance
+4610,Substances ou mélanges auxquels est attribuée la mention de danger EUH014,Classe de danger CLP — dépend de la classification de chaque substance
+4620,"Substances et mélanges qui, au contact de l'eau, dégagent des gaz inflammables, catégorie 1",Classe de danger CLP — dépend de la classification de chaque substance
+4630,Substances ou mélanges auxquels est attribuée la mention de danger EUH029,Classe de danger CLP — dépend de la classification de chaque substance
+4733,Cancérogènes,Libellé non explicitement rattachable à un composant de la liste
+4755,Alcools de bouche d'origine agricole,"Alcools de bouche — libellé trop spécifique, seul 'Alcool' (générique) présent dans la liste"
