@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-extract_icpe.py — Extraction automatisée des données ICPE depuis Géorisques
-Récupère la liste de tous les établissements via l'API, télécharge les fichiers
-Excel associés et les consolide en un seul CSV.
-
-Usage:
-    python extract_icpe.py
-
-Dépendances:
-    pip install requests pandas xlrd tqdm
-"""
-
 import os
 import sys
 import time
@@ -24,7 +11,6 @@ from tqdm import tqdm
 
 import config
 
-# ── Logging ────────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(message)s",
@@ -36,13 +22,11 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-# ── 1. Récupération de la liste des établissements ────────────────────────────
+# Récupération de la liste des établissements ────────────────────────────
 
+# Interroge l'API Géorisques page par page et retourne la liste complète
+# des établissements ICPE selon les filtres définis dans config.py.
 def fetch_etablissements() -> list[dict]:
-    """
-    Interroge l'API Géorisques page par page et retourne la liste complète
-    des établissements ICPE selon les filtres définis dans config.py.
-    """
     etablissements = []
     page = 1
     page_size = 1000
@@ -104,9 +88,8 @@ def fetch_etablissements() -> list[dict]:
     log.info(f"  → {len(etablissements)} établissements à traiter.")
     return etablissements
 
-
+# Extrait l'identifiant numérique de l'établissement depuis la réponse API.
 def extract_id(etab: dict) -> str | None:
-    """Extrait l'identifiant numérique de l'établissement depuis la réponse API."""
     for key in ("num_etablissement", "id", "identifiant", "numEtablissement",
                 "properties", "code_s3ic"):
         val = etab.get(key)
@@ -117,13 +100,10 @@ def extract_id(etab: dict) -> str | None:
     return None
 
 
-# ── 2. Téléchargement des fichiers Excel ──────────────────────────────────────
+# Téléchargement des fichiers Excel ──────────────────────────────────────
 
-def download_xls(num_etab: str, session: requests.Session) -> Path | None:
-    """
-    Télécharge le fichier XLS d'un établissement et le sauvegarde dans
-    XLS_CACHE_DIR. Retourne le chemin du fichier ou None en cas d'échec.
-    """
+# Télécharge le fichier XLS d'un établissement et le sauvegarde dans XLS_CACHE_DIR.
+def download_xls(num_etab: str, session: requests.Session) -> Path | None:   
     cache_dir = Path(config.XLS_CACHE_DIR)
     cache_dir.mkdir(exist_ok=True)
     dest = cache_dir / f"{num_etab}.xls"
@@ -150,19 +130,15 @@ def download_xls(num_etab: str, session: requests.Session) -> Path | None:
 
 
 def download_worker(args):
-    """Worker utilisé par ThreadPoolExecutor."""
     num_etab, session = args
     time.sleep(config.REQUEST_DELAY)
     return num_etab, download_xls(num_etab, session)
 
 
-# ── 3. Extraction et normalisation des feuilles Excel ─────────────────────────
+# Extraction et normalisation des feuilles Excel ─────────────────────────
 
+# Transforme la feuille 'Entete' (format clé/valeur vertical) en un dictionnaire plat.
 def parse_entete(df_raw: pd.DataFrame) -> dict:
-    """
-    Transforme la feuille 'Entete' (format clé/valeur vertical)
-    en un dictionnaire plat.
-    """
     result = {}
     for _, row in df_raw.iterrows():
         # La colonne 1 contient le label, la colonne 2 la valeur
@@ -183,11 +159,8 @@ def parse_entete(df_raw: pd.DataFrame) -> dict:
     return result
 
 
+# Transforme la feuille 'Situation administrative' (tableau) en DataFrame normalisé.
 def parse_situation_admin(df_raw: pd.DataFrame) -> pd.DataFrame:
-    """
-    Transforme la feuille 'Situation administrative' (tableau)
-    en DataFrame normalisé.
-    """
     if df_raw.empty:
         return pd.DataFrame()
 
@@ -245,13 +218,9 @@ def parse_situation_admin(df_raw: pd.DataFrame) -> pd.DataFrame:
     ]
     return df_out
 
-
+# Transforme la feuille 'Inspections' et retourne la date de la dernière inspection
 def parse_derniere_inspection(df_raw: pd.DataFrame) -> str | None:
-    """
-    Transforme la feuille 'Inspections' et retourne la date de la
-    dernière inspection (la plus récente), au format YYYY-MM-DD.
-    Retourne None si la feuille est vide ou ne contient aucune date exploitable.
-    """
+  
     if df_raw.empty:
         return None
 
@@ -280,12 +249,8 @@ def parse_derniere_inspection(df_raw: pd.DataFrame) -> str | None:
 
     return dates.max().strftime("%Y-%m-%d")
 
-
+# Lit le fichier XLS, extrait toutes les feuilles et retourne une liste de lignes
 def parse_xls(path: Path, num_etab: str) -> list[dict]:
-    """
-    Lit le fichier XLS, extrait toutes les feuilles et retourne
-    une liste de lignes (une par rubrique ICPE, avec les métadonnées entete).
-    """
     try:
         xl = pd.ExcelFile(str(path), engine="xlrd")
     except Exception as e:
@@ -335,14 +300,13 @@ def parse_xls(path: Path, num_etab: str) -> list[dict]:
     return lignes
 
 
-# ── 4. Pipeline principal ─────────────────────────────────────────────────────
+# Fonction principale ─────────────────────────────────────────────────────
 
 def main():
     log.info("=" * 60)
     log.info("  Extraction ICPE Géorisques")
     log.info("=" * 60)
 
-    # — Étape 1 : Récupérer les identifiants
     etablissements = fetch_etablissements()
     if not etablissements:
         log.error("Aucun établissement récupéré. Vérifiez la config et la connexion.")
@@ -352,7 +316,6 @@ def main():
     ids = [i for i in ids if i]
     log.info(f"{len(ids)} identifiants valides extraits.")
 
-    # — Étape 2 : Télécharger les XLS en parallèle
     log.info(f"Téléchargement des fichiers XLS (workers={config.WORKERS})…")
     session = requests.Session()
     session.headers.update({"User-Agent": "ICPE-Extractor/1.0 (étude empreinte énergétique)"})
@@ -370,7 +333,6 @@ def main():
 
     log.info(f"  → {len(xls_paths)}/{len(ids)} fichiers téléchargés avec succès.")
 
-    # — Étape 3 : Parser les XLS et agréger
     log.info("Extraction et consolidation des données…")
     all_rows = []
 
@@ -382,14 +344,10 @@ def main():
         log.error("Aucune donnée extraite. Vérifiez le format des fichiers XLS.")
         sys.exit(1)
 
-    # — Étape 4 : Sauvegarder en CSV
     df_final = pd.DataFrame(all_rows)
 
-    # Colonnes souhaitées : infos légales + codes ICPE + volume
     COLONNES_SOUHAITEES = [
-        # Identifiant
         "num_etablissement",
-        # Infos légales
         "entete_nom",
         "entete_siret",
         "entete_etat_d_activite",
@@ -397,7 +355,6 @@ def main():
         "entete_statut_seveso",
         "entete_ied_-_mtd",
         "derniere_date_inspection",
-        # Rubriques ICPE
         "situation_administrative_code_rubrique",
         "situation_administrative_alinea",
         "situation_administrative_libelle_rubrique",
@@ -426,11 +383,9 @@ def get_ids_from_csv(file_path):
     return df['id']
 
 if __name__ == "__main__":
-    # 1. Chargement de la liste locale
+    # Chargement de la liste locale
     log.info("Chargement de la liste locale des identifiants d'établissements...")
     mes_ids = get_ids_from_csv("export.csv")
-    
-    # On utilise une clé que la fonction `extract_id` sait lire (ex: "identifiant")
     etablissements = [{"identifiant": num_id} for num_id in mes_ids]
     log.info(f"→ {len(etablissements)} établissements configurés manuellement.")
 
@@ -439,7 +394,7 @@ if __name__ == "__main__":
     ids = [i for i in ids if i]
     log.info(f"{len(ids)} identifiants valides extraits.")
 
-    # — Étape 2 : Téléchargement des fichiers XLS (Correction ici)
+    # Téléchargement des fichiers XLS
     log.info(f"Début du téléchargement des fichiers Excel (workers={config.WORKERS})…")
     session = requests.Session()
     session.headers.update({"User-Agent": "ICPE-Extractor/1.0 (étude empreinte énergétique)"})
@@ -447,7 +402,6 @@ if __name__ == "__main__":
     xls_paths = {}
     args = [(num_id, session) for num_id in ids]
 
-    # Utilisation correcte du ThreadPoolExecutor comme dans main()
     with ThreadPoolExecutor(max_workers=config.WORKERS) as executor:
         futures = {executor.submit(download_worker, a): a[0] for a in args}
         for future in tqdm(as_completed(futures), total=len(futures),
@@ -458,7 +412,6 @@ if __name__ == "__main__":
 
     log.info(f"→ {len(xls_paths)}/{len(ids)} fichiers téléchargés avec succès.")
 
-    # — Étape 3 : Parser les XLS et agréger
     log.info("Extraction et consolidation des données…")
     all_rows = []
     for num_id, path in tqdm(xls_paths.items(), desc="Extraction", unit="fichier"):
@@ -469,10 +422,8 @@ if __name__ == "__main__":
         log.error("Aucune donnée extraite. Vérifiez le format des fichiers XLS.")
         sys.exit(1)
 
-    # — Étape 4 : Sauvegarder en CSV
     df_final = pd.DataFrame(all_rows)
 
-    # Colonnes souhaitées : infos légales + codes ICPE + volume
     COLONNES_SOUHAITEES = [
         "num_etablissement",
         "entete_nom",
@@ -494,6 +445,8 @@ if __name__ == "__main__":
     df_final.to_csv(config.OUTPUT_CSV, index=False, encoding="utf-8-sig")
     log.info(f"\n✓ CSV sauvegardé : {config.OUTPUT_CSV}")
 
+
+
 # Nettoyage du csv enregistré
 df = pd.read_csv("output_icpe.csv", dtype={'entete_siret': str})
 df = df.dropna(subset=['situation_administrative_code_rubrique'])
@@ -502,3 +455,4 @@ df['situation_administrative_code_rubrique'] = df['situation_administrative_code
 df['num_etablissement'] = num_etab.str.rjust(10, '0')
 df.to_csv("output_icpe_clean.csv", index=False)
 print("Le CSV a été nettoyé et enregisté avec succès ! ;)")
+print(" Utiliser le fichier output_icpe_clean.csv pour la suite du traitement.")

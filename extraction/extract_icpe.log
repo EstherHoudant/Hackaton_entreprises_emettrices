@@ -1,0 +1,49 @@
+2026-06-30 23:41:16,893  INFO      Chargement de la liste locale des identifiants d'établissements...
+2026-06-30 23:42:00,854  INFO      Chargement de la liste locale des identifiants d'établissements...
+2026-06-30 23:42:12,516  INFO      → 137456 établissements configurés manuellement.
+2026-06-30 23:42:12,545  INFO      137456 identifiants valides extraits.
+2026-06-30 23:42:12,545  INFO      Début du téléchargement des fichiers Excel (workers=4)…
+2026-06-30 23:43:51,720  INFO      Chargement de la liste locale des identifiants d'établissements...
+2026-06-30 23:43:51,999  INFO      → 137456 établissements configurés manuellement.
+2026-06-30 23:43:52,028  INFO      137456 identifiants valides extraits.
+2026-06-30 23:43:52,029  INFO      Début du téléchargement des fichiers Excel (workers=4)…
+2026-07-01 03:00:07,900  WARNING     Échec téléchargement 0052206137 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206137/excel
+2026-07-01 03:00:07,950  WARNING     Échec téléchargement 0052206139 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206139/excel
+2026-07-01 03:00:08,288  WARNING     Échec téléchargement 0052206141 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206141/excel
+2026-07-01 03:00:08,445  WARNING     Échec téléchargement 0052206140 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206140/excel
+2026-07-01 03:00:14,434  WARNING     Échec téléchargement 0052206142 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206142/excel
+2026-07-01 03:00:14,471  WARNING     Échec téléchargement 0052206143 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206143/excel
+2026-07-01 03:00:14,824  WARNING     Échec téléchargement 0052206144 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206144/excel
+2026-07-01 03:00:14,983  WARNING     Échec téléchargement 0052206147 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206147/excel
+2026-07-01 03:00:20,985  WARNING     Échec téléchargement 0052206154 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206154/excel
+2026-07-01 03:00:20,986  WARNING     Échec téléchargement 0052206152 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206152/excel
+2026-07-01 03:00:21,358  WARNING     Échec téléchargement 0052206155 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206155/excel
+2026-07-01 03:00:21,496  WARNING     Échec téléchargement 0052206156 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206156/excel
+2026-07-01 03:00:27,549  WARNING     Échec téléchargement 0052206159 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206159/excel
+2026-07-01 03:00:27,551  WARNING     Échec téléchargement 0052206158 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206158/excel
+2026-07-01 03:00:27,909  WARNING     Échec téléchargement 0052206161 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206161/excel
+2026-07-01 03:00:28,057  WARNING     Échec téléchargement 0052206162 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206162/excel
+2026-07-01 03:00:34,090  WARNING     Échec téléchargement 0052206164 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206164/excel
+2026-07-01 03:00:34,093  WARNING     Échec téléchargement 0052206166 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206166/excel
+2026-07-01 03:00:34,432  WARNING     Échec téléchargement 0052206167 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206167/excel
+2026-07-01 03:00:34,582  WARNING     Échec téléchargement 0052206170 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206170/excel
+2026-07-01 03:00:40,644  WARNING     Échec téléchargement 0052206174 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206174/excel
+2026-07-01 03:00:40,654  WARNING     Échec téléchargement 0052206171 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206171/excel
+2026-07-01 03:00:40,950  WARNING     Échec téléchargement 0052206175 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206175/excel
+2026-07-01 03:00:41,118  WARNING     Échec téléchargement 0052206177 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206177/excel
+2026-07-01 03:00:47,182  WARNING     Échec téléchargement 0052206191 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206191/excel
+2026-07-01 03:00:47,184  WARNING     Échec téléchargement 0052206182 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206182/excel
+2026-07-01 03:00:47,486  WARNING     Échec téléchargement 0052206194 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206194/excel
+2026-07-01 03:00:47,633  WARNING     Échec téléchargement 0052206197 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206197/excel
+2026-07-01 03:00:53,692  WARNING     Échec téléchargement 0052206198 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206198/excel
+2026-07-01 03:00:53,702  WARNING     Échec téléchargement 0052206199 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206199/excel
+2026-07-01 03:00:54,035  WARNING     Échec téléchargement 0052206200 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206200/excel
+2026-07-01 03:00:54,147  WARNING     Échec téléchargement 0052206201 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206201/excel
+2026-07-01 03:01:00,233  WARNING     Échec téléchargement 0052206203 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206203/excel
+2026-07-01 03:01:00,234  WARNING     Échec téléchargement 0052206202 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206202/excel
+2026-07-01 03:01:00,567  WARNING     Échec téléchargement 0052206206 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206206/excel
+2026-07-01 03:01:00,681  WARNING     Échec téléchargement 0052206207 après 3 tentatives: 503 Server Error: Service Unavailable for url: https://www.georisques.gouv.fr/webappReport/ws/installations/etablissement/0052206207/excel
+2026-07-01 04:28:09,845  INFO      → 137420/137456 fichiers téléchargés avec succès.
+2026-07-01 04:28:09,846  INFO      Extraction et consolidation des données…
+2026-07-01 04:40:12,303  INFO      
+✓ CSV sauvegardé : output_icpe.csv
