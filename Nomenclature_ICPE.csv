@@ -1,0 +1,291 @@
+﻿Code;Description;Service
+1xxx;SUBSTANCES;
+11xx;Gaz à effet de serre;
+1185;Gaz à effet de serre fluorés;SSEEC-BPC
+13xx;Explosifs et substances explosibles;
+131x;Explosifs;
+1312;Mise en œuvre de produits explosifs à des fins industrielles;SRT-BRIEC
+14xx;Substances inflammables;
+141x;Gaz inflammables;
+1413;Installations de remplissage de réservoirs de gaz naturel ou biogaz, sous pression;SRT-BRIEC
+1414;Installations de remplissage ou de distribution de gaz inflammables liquéfiés;SRT-BRIEC
+1416;Station services (hydrogène);SRT-BRIEC
+142x;Substances inflammables;
+1421;Installation de remplissage d'aérosols inflammables;SRT-BRIEC
+143x;Liquides inflammables;
+1434;Installations de remplissage ou de distribution de liquides inflammables;SRT-BRIEC
+1435;Stations-service;SRT-BRIEC
+1436;Liquides de point éclair compris entre 60°C et 93°C;SRT-BRIEC
+145x;Solides inflammables;
+1450;Solides inflammables;SRT-BRIEC
+1455;Stockage de carbure de calcium;SRT-BRIEC
+15xx;Produits combustibles;
+1510;Stockage de matières, produits ou substances combustibles dans des entrepôts couverts;SRT-BRIEC
+1511;Entrepôts frigorifiques;SRT-BRIEC
+1530;Dépôts de papiers, cartons ou matériaux combustibles analogues;SRT-BRIEC
+1531;Stockages, par voie humide (immersion ou aspersion), de bois non traité chimiquement;SRT-BRIEC
+1532;Stockage de bois ou de matériaux combustibles analogues;SRT-BRIEC
+16xx;Corrosifs;
+1630;Emploi ou stockage de lessives de soude ou de potasse caustique;SRT-BRIEC
+17xx;Substances radioactives;
+1700;Définitions et règles de classement des substances radioactives;
+1716;Substances radioactives;SRT-MSNR
+1735;Dépôt, entreposage ou stockage de substances radioactives;SRT-MSNR
+19xx;Substances diverses;
+1978;Solvants organiques;DGEC-BQA
+2xxx;ACTIVITES;
+21xx;Activités agricoles, animaux;
+2101;Élevage de bovins;SSEEC-BBA
+2102;Élevage de porcs;SSEEC-BBA
+2110;Élevage de lapins;SSEEC-BBA
+2111;Élevage de volailles;SSEEC-BBA
+2112;Couvoirs;SSEEC-BBA
+2113;Élevage d'animaux carnassiers à fourrure;SSEEC-BBA
+2120;Élevage de chiens;SSEEC-BBA
+2130;Piscicultures;SSEEC-BBA
+2140;Présentation au public d'animaux d'espèces non domestiques;SSEEC-BBA
+2150;Élevage de coléoptères, diptères, orthoptères;SSEEC-BBA
+2160;Silos et installations de stockage de céréales, grains, produits alimentaires ...;SRT-BRIEC
+2170;Fabrication des engrais, amendement et support de culture;SSEEC-BGD
+2171;Dépôts de fumiers, engrais et supports de culture;SSEEC-BGD
+2175;Dépôts d'engrais liquides;SRT-BRIEC
+22xx;Agroalimentaire et agroindustrie;
+2210;Abattage d'animaux;SSEEC-BBA
+2220;Préparation de produits alimentaires d'origine végétale;SRT-BEI
+2221;Préparation de produits alimentaires d'origine animale;SRT-BEI
+2230;Transformation etc. du lait;SRT-BEI
+2240;Extraction et traitement des huiles végétales, huiles animales et corps gras;SRT-BEI
+2250;Production par distillation d'alcools de bouche d'origine agricole;SRT-BEI
+2251;Préparation, conditionnement de vins;SRT-BEI
+2260;Broyage, concassage de substances végétales;SRT-BEI
+2265;Fermentation acétique en milieu liquide;SRT-BEI
+2275;Fabrication de levure et [...];SRT-BEI
+23xx;Textiles, cuirs et peaux;
+2311;Traitement par battage, cardage, lavage etc. de fibres d'origine végétale;SRT-BEI
+2315;Fabrication de fibres végétales artificielles;SRT-BEI
+2321;Atelier de fabrication de tissus;SRT-BEI
+2330;Teinture, impression, apprêt, enduction, blanchiment et délavage de matières textiles;SRT-BEI
+2340;Blanchisserie, laverie de linge;SRT-BEI
+2345;Utilisation de solvants pour le nettoyage à sec et le traitement de textiles ou vêtements;DGEC-BQA
+2350;Tanneries, mégisseries, ...;SRT-BEI
+2351;Teintureries et pigmentation de peaux;SRT-BEI
+2355;Dépôts de peaux;SSEEC-BBA
+2360;Fabrication de chaussures, maroquinerie ou travail du cuir;SRT-BEI
+24xx;Bois, papier, carton, imprimerie;
+2410;Travail du bois et matériaux combustibles analogues;SRT-BEI
+2415;Mise en œuvre de produits de préservation de bois et matériaux dérivés;SRT-BEI
+2420;Fabrication de charbon de bois;DGEC-BQA
+2430;Préparation de la pâte à papier;SRT-BEI
+2440;Fabrication de papier carton;SRT-BEI
+2445;Transformation du papier, carton;SRT-BEI
+2450;Imprimeries ou ateliers de reproduction graphique sur tout support;DGEC-BQA
+25xx;Matériaux, minerais et métaux;
+2510;Exploitation de carrières;SRT-BSSS
+2515;Broyage, concassage, criblage ... de pierres, cailloux, minerais et autres produits minéraux naturels ou artificiels ou de déchets non dangereux inertes;SRT-BSSS
+2516;Station de transit de produits minéraux pulvérulents;SRT-BSSS
+2517;Station de transit de produits minéraux autres;SRT-BSSS
+2518;Production de béton prêt à l'emploi;SRT-BSSS
+2520;Fabrication de ciments, chaux, plâtres;SRT-BSSS
+2521;Station d'enrobage au bitume de matériaux routiers;SRT-BSSS
+2522;Fabrication de produits en béton par procédés mécaniques;SRT-BSSS
+2523;Fabrication de produits céramiques et réfractaires;SRT-BSSS
+2524;Taillage, sciage et polissage de minéraux naturels ou artificiels;SRT-BSSS
+2530;Fabrication et travail du verre;DGEC-BQA
+2531;Travail chimique du verre ou du cristal;DGEC-BQA
+2540;Lavoirs à houille, minerais, minéraux ou résidus métallurgiques;SRT-BSSS
+2541;Agglomération de houille, minerai de fer, fabrication de graphite artificiel – Grillage ou frittage de minerai métallique;SRT-BSSS
+2545;Fabrication d'acier, fer, fonte, ferro-alliage;SRT-BSSS
+2546;Traitement industriel des minerais non ferreux, élaboration des métaux et alliages non ferreux;SRT-BSSS
+2547;Fabrication de silico-alliages ou carbure de silicium;SRT-BSSS
+2550;Fonderie de produits moulés ... contenant du plomb;SRT-BSSS
+2551;Fonderie de métaux et alliages ferreux;SRT-BSSS
+2552;Fonderie de métaux et alliages non-ferreux;SRT-BSSS
+2560;Travail mécanique des métaux et alliages;SRT-BEI
+2561;Trempé recuit, revenu des métaux et alliages;SRT-BSSS
+2562;Chauffage et traitement industriels par bains de sels fondus;SRT-BEI
+2563;Nettoyage lessiviel;SRT-BEI
+2564;Nettoyage, dégraissage, décapage de surfaces utilisant des liquides organohalogénés ou des solvants organiques;SRT-BEI
+2565;Revêtement métallique ou traitement de surfaces par voie électrolytique ou chimique;SRT-BEI
+2566;Décapage des métaux par traitement thermique;SRT-BEI
+2567;Galvanisation, étamage de métaux;SRT-BEI
+2570;Émail;SRT-BEI
+2575;Emploi de matières abrasives;SRT-BEI
+26xx;Chimie, parachimie, caoutchouc;
+2630;Fabrication de ou à base de détergents et savons;SRT-BEI
+2631;Extraction par la vapeur des parfums, huiles essentielles;SRT-BRIEC
+2640;Fabrication industrielle de colorants et pigments organiques, minéraux et naturels;SRT-BRIEC
+2660;Fabrication industrielle ou régénération de polymères;SRT-BRIEC
+2661;Transformation de polymères;SRT-BRIEC
+2662;Stockage de polymères;SRT-BRIEC
+2663;Stockage de pneumatiques et produits composés d'au moins 50 % de polymères;SRT-BRIEC
+2670;Fabrication d'accumulateurs et piles;SRT-BSSS
+2680;Mise en œuvre industrielle d'organismes génétiquement modifiés;SSEEC-BBA
+2681;Mise en œuvre industrielle de micro-organismes naturels pathogènes;SSEEC-BBA
+2690;Préparation de produits opothérapiques;SSEEC-BBA
+27xx;Déchets;
+2710;Collecte de déchets apportés par le producteur initial;SSEEC-BGD
+2711;Transit, regroupement, tri ou préparation de déchets d'équipements électriques et électroniques;SSEEC-BGD
+2712;Stockage, dépollution, démontage, découpage ou broyage de véhicules hors d'usage;SSEEC-BGD
+2713;Transit, regroupement, tri ou préparation de métaux ou de déchets de métaux non dangereux;SSEEC-BGD
+2714;Transit, regroupement, tri ou préparation de déchets non dangereux de papiers/cartons, plastiques, caoutchouc, textiles, bois;SSEEC-BGD
+2715;Transit, regroupement ou tri de déchets non dangereux de verre;SSEEC-BGD
+2716;Transit, regroupement, tri ou préparation de déchets non dangereux non inertes;SSEEC-BGD
+2718;Transit, regroupement ou tri de déchet dangereux;SSEEC-BGD
+2719;Installation temporaire de transit de déchets issus de pollutions accidentelles marines ou fluviales ou de catastrophes naturelles;SSEEC-BGD
+2720;Stockage de déchets résultant de la prospection, de l'extraction, du traitement et du stockage de ressources minérales ainsi que de l'exploitation de carrières;SRT-BSSS
+2730;Traitement de sous-produits d'origine animale;SSEEC-BBA
+2731;Dépôt de sous-produits animaux;SSEEC-BBA
+2740;Incinération de cadavres d'animaux de compagnie;SSEEC-BBA
+2750;Station d'épuration collective d'eaux résiduaires industrielles;SRT-BEI
+2751;Station d'épuration collective de déjections animales;SSEEC-BBA
+2752;Station d'épuration mixte;SRT-BEI
+2760;Stockage de déchets autres que ceux mentionnés à la rubrique 2720;SSEEC-BGD
+2770;Traitement thermique de déchets dangereux;SSEEC-BGD
+2771;Traitement thermique de déchets non dangereux;SSEEC-BGD
+2780;Compostage de déchets non dangereux ou matière végétale;SSEEC-BGD
+2781;Méthanisation de déchets non dangereux ou matière végétale;SSEEC-BGD
+2782;Autres traitements biologiques de déchets non dangereux;SSEEC-BGD
+2783;Déconditionnement de biodéchets;SSEEC-BGD
+2790;Traitement de déchets dangereux;SSEEC-BGD
+2791;Traitement de déchets non dangereux;SSEEC-BGD
+2792;Traitement de déchets contenant des PCB;SSEEC-BGD
+2793;Traitement de déchets d'explosifs;SRT-BRIEC
+2794;Broyage de déchets verts;SSEEC-BGD
+2795;Lavage de fûts, conteneurs et citernes de transport de matières alimentaires, de matières dangereuses ou de déchets dangereux;SSEEC-BGD
+2797;Gestion des déchets radioactifs;SRT-MSNR
+2798;Installation temporaire de transit de déchets radioactifs;SRT-MSNR
+29xx;Divers;
+2910;Installation de combustion;DGEC-BQA
+2915;Procédés de chauffage;DGPR-BEI
+2921;Refroidissement évaporatif par dispersion d'eau dans un flux d'air;DGEC-BQA
+2925;Charge d'accumulateurs;SRT-BRIEC
+2930;Ateliers de réparation et d'entretien de véhicules et engins à moteurs;DGPR-BEI
+2931;Ateliers d'essais sur banc de moteurs à combustion interne ou à réaction, turbines;DGEC-BQA
+2940;Application, cuisson, séchage de vernis, peinture, apprêt, colle, enduit, etc.;DGEC-BQA
+2950;Traitement et développement des surfaces photosensibles;SRT-BEI
+2960;Captage de CO2;SRT-BSSS
+2970;Stockage géologique de CO2;SRT-BSSS
+2971;Installation de production de chaleur ou d'électricité à partir de combustibles solides de récupération;SSEEC-BGD
+2980;Installation terrestre de production d'électricité à partir de l'énergie mécanique du vent;SRT-BRIEC
+3xxx;ACTIVITES « IED »;
+3110;Combustion;DGEC-BQA
+3120;Raffinage de pétrole et de gaz;SRT-BRIEC
+3130;Production de coke;SRT-BSSS
+3140;Gazéification ou liquéfaction de charbon ou autres combustibles;SRT-BRIEC
+3210;Grillage ou frittage de minerai métallique;SRT-BSSS
+3220;Production de fonte ou d'acier;SRT-BSSS
+3230;Transformation des métaux ferreux;SRT-BSSS
+3240;Exploitation de fonderies de métaux ferreux;SRT-BSSS
+3250;Transformation de métaux non ferreux;SRT-BSSS
+3260;Traitement de surface;SRT-BEI
+3310;Production de ciment, chaux ou oxyde de magnésium;SRT-BSSS
+3330;Fabrication du verre;DGEC-BQA
+3340;Fusion de matières minérales;SRT-BSSS
+3350;Fabrication de céramiques;SRT-BSSS
+3410;Fabrication de produits chimiques organiques;SRT-BRIEC
+3420;Fabrication de produits chimiques inorganiques;SRT-BRIEC
+3430;Fabrication d'engrais;SRT-BRIEC
+3440;Fabrication de produits phytosanitaires ou biocides;SRT-BRIEC
+3450;Fabrication de produits pharmaceutiques;SRT-BRIEC
+3460;Fabrication d'explosifs;SRT-BRIEC
+3510;Traitement de déchets dangereux;SSEEC-BGD
+3520;Incinération ou coincinération de déchets;SSEEC-BGD
+3531;Élimination de déchets non dangereux;SSEEC-BGD
+3532;Valorisation de déchets non dangereux;SSEEC-BGD
+3540;Installation de stockage de déchets;SSEEC-BGD
+3550;Stockage temporaire de déchets;SSEEC-BGD
+3560;Stockage souterrain de déchets dangereux;SSEEC-BGD
+3610;Fabrication de pâte à papier, papier, carton, panneaux de bois;SRT-BEI
+3620;Prétraitement ou teinture de textiles;SRT-BEI
+3630;Tannage des peaux;SRT-BEI
+3641;Exploitation d'abattoirs;SSEEC-BBA
+3642;Traitement et transformation de matières premières en vue de la fabrication de produits alimentaires;SRT-BEI
+3643;Traitement et transformation du lait;SRT-BEI
+3650;Élimination ou recyclage de carcasses ou de sous-produits animaux;SSEEC-BBA
+3660;Élevage intensif;SSEEC-BBA
+3670;Traitement de surface de matières à l'aide de solvants organiques;DGEC-BQA
+3680;Fabrication de carbone;SRT-BSSS
+3690;Captage des flux de CO2;SRT-BSSS
+3700;Préservation du bois;SRT-BEI
+3710;Traitement des eaux résiduaires;SRT-BEI
+4xxx;Substances « Seveso 3 »;
+4000;Substances et mélanges dangereux (définition et classification des);SRT-BRIEC
+4001;Installations présentant un grand nombre de substances;SRT-BRIEC
+4110;Toxicité aiguë catégorie 1;SRT-BRIEC
+4120;Toxicité aiguë catégorie 2;SRT-BRIEC
+4130;Toxicité aiguë catégorie 3 / inhalation.;SRT-BRIEC
+4140;Toxicité aiguë catégorie 3 / orale;SRT-BRIEC
+4150;Toxicité spécifique pour certains organes cibles;SRT-BRIEC
+4210;Produits explosifs;SRT-BRIEC
+4220;Produits explosifs (stockage de);SRT-BRIEC
+4240;Produits explosibles;SRT-BRIEC
+4310;Gaz inflammables catégorie 1 et 2.;SRT-BRIEC
+4320;Aérosols extrêmement inflammables ou inflammables [...];SRT-BRIEC
+4321;Aérosols extrêmement inflammables ou inflammables [...];SRT-BRIEC
+4330;Liquides inflammables de catégorie 1;SRT-BRIEC
+4331;Liquides inflammables de catégorie 2 ou catégorie 3;SRT-BRIEC
+4410;Substances et mélanges autoréactifs type A ou type B;SRT-BRIEC
+4411;Substances et mélanges autoréactifs type C, D, E ou F;SRT-BRIEC
+4420;Peroxydes organiques type A ou type B;SRT-BRIEC
+4421;Peroxydes organiques type C ou type D;SRT-BRIEC
+4422;Peroxydes organiques type E ou type F;SRT-BRIEC
+4430;Solides pyrophoriques catégorie 1.;SRT-BRIEC
+4431;Liquides pyrophoriques catégorie 1;SRT-BRIEC
+4440;Solides comburants catégorie 1, 2 ou 3;SRT-BRIEC
+4441;Liquides comburants catégorie 1, 2 ou 3;SRT-BRIEC
+4442;Gaz comburants catégorie 1;SRT-BRIEC
+4510;Dangereux pour l'environnement aquatique 1;SRT-BRIEC
+4511;Dangereux pour l'environnement aquatique 2;SRT-BRIEC
+4610;Substances ou mélanges auxquels est attribuée la mention de danger EUH014;SRT-BRIEC
+4620;Substances et mélanges qui, au contact de l'eau, dégagent des gaz inflammables, catégorie 1;SRT-BRIEC
+4630;Substances ou mélanges auxquels est attribuée la mention de danger EUH029;SRT-BRIEC
+4701;Nitrate d'ammonium.;SRT-BRIEC
+4702;Engrais solides simples et composés à base de nitrate d'ammonium;SRT-BRIEC
+4703;Nitrate d'ammonium ou d'engrais hors spécification;SRT-BRIEC
+4705;Nitrate de potassium et engrais composés (sous forme de comprimés ou de granulés);SRT-BRIEC
+4706;Nitrate de potassium et engrais composés (sous forme de cristaux);SRT-BRIEC
+4707;Pentoxyde d'arsenic;SRT-BRIEC
+4708;Trioxyde d'arsenic;SRT-BRIEC
+4709;Brome;SRT-BRIEC
+4710;Chlore;SRT-BRIEC
+4711;Composés de nickel;SRT-BRIEC
+4712;Ethylèneimine;SRT-BRIEC
+4713;Fluor;SRT-BRIEC
+4714;Formaldéhyde;SRT-BRIEC
+4715;Hydrogène;SRT-BRIEC
+4716;Chlorure d'hydrogène;SRT-BRIEC
+4717;Plombs alkyls;SRT-BRIEC
+4718;Gaz inflammables liquéfiés de catégorie 1 et 2;SRT-BRIEC
+4719;Acétylène;SRT-BRIEC
+4720;Oxyde d'éthylène;SRT-BRIEC
+4721;Oxyde de propylène;SRT-BRIEC
+4722;Méthanol;SRT-BRIEC
+4723;4,4-méthylène-bis;SRT-BRIEC
+4724;Isocyanate de méthyle;SRT-BRIEC
+4725;Oxygène;SRT-BRIEC
+4726;2,4-diisocyanate de toluène;SRT-BRIEC
+4727;Dichlorure de carbonyle (phosgène);SRT-BRIEC
+4728;Arsine;SRT-BRIEC
+4729;Phosphine;SRT-BRIEC
+4730;Dichlorure de soufre;SRT-BRIEC
+4731;Trioxyde de soufre;SRT-BRIEC
+4732;Polychlorodibenzofuranes et polychlorodibenzodioxines;SRT-BRIEC
+4733;Cancérogènes;SRT-BRIEC
+4734;Produits pétroliers spécifiques et carburants de substitution;SRT-BRIEC
+4735;Ammoniac;SRT-BRIEC
+4736;Trifluorure de bore;SRT-BRIEC
+4737;Sulfure d'hydrogène;SRT-BRIEC
+4738;Pipéridine;SRT-BRIEC
+4739;Bis(2-dimethylaminoéthyl)(méthyl)amine;SRT-BRIEC
+4740;3-(2-Ethylhexyloxy)propylamine;SRT-BRIEC
+4741;Les mélanges d'hypochlorite de sodium;SRT-BRIEC
+4742;Propylamine;SRT-BRIEC
+4743;Acrylate de tert-butyl;SRT-BRIEC
+4744;2-méthyl-3-butènenitrile;SRT-BRIEC
+4745;Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet);SRT-BRIEC
+4746;Acrylate de méthyle;SRT-BRIEC
+4747;3-Méthylpyridine;SRT-BRIEC
+4748;1-bromo-3-chloropropane;SRT-BRIEC
+4749;Perchlorate d'ammonium;SRT-BRIEC
+4755;Alcools de bouche d'origine agricole;SRT-BRIEC
+4801;Houille, coke,...;SRT-BRIEC
