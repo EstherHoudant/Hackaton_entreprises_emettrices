@@ -13,3 +13,16 @@ L'enjeu de ce projet est de récupérer et de mettre sous un format facilement e
 
 4) Utilisation de la liste des composants:
    EDF nous a fourni une liste de composants chimiques, et le but est d'identifier les composants utilisés par chaque entreprise et d'en caractériser les flux (en entrée et sortie). 
+
+
+Workflow du projet : 
+
+Usage:
+    python extract_icpe.py
+
+Dépendances:
+    pip install requests pandas xlrd tqdm
+
+Le programme python extract_icpe.py permet de collecter des fichiers excel propre à chaque entreprise sur le site du gouvernement géorisques. On obtient ainsi deux fichiers csv : output_icpe.csv (les données brutes) et output_icpe_clean.csv (le fichier .csv un peu nettoyé). ATTENTION : il faut quelques heures (envrion 4) pour que le programme charge toutes les données. C'est pourquoi dans ce notebook vous trouverez un fichier output.csv déjà présent pour vous éviter d'attendre. Mais si vous souhaitez une mise à jour de certaines données, il suffit de le refaire tourner. 
+Une fois output_icpe_clean.csv récupéré il faut faire tourner le notebook naf.ipynb pour merge ce fichier avec un autre csv contenant les données NAF à 5 chiffres. A la fin de ce notebook on commence à nettoyé davantage les colonnes pour rentre le dataset plus lisible. 
+Le notebook Traitement_donnees_EDF.ipynb .... (MAXIME)
