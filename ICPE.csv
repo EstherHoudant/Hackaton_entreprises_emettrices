@@ -1,0 +1,266 @@
+,Code,Description
+2,1185,Gaz à effet de serre fluorés
+5,1312,Mise en œuvre de produits explosifs à des fins industrielles
+8,1413,"Installations de remplissage de réservoirs de gaz naturel ou biogaz, sous pression"
+9,1414,Installations de remplissage ou de distribution de gaz inflammables liquéfiés
+10,1416,Station services (hydrogène)
+12,1421,Installation de remplissage d'aérosols inflammables
+14,1434,Installations de remplissage ou de distribution de liquides inflammables
+15,1435,Stations-service
+16,1436,Liquides de point éclair compris entre 60°C et 93°C
+18,1450,Solides inflammables
+19,1455,Stockage de carbure de calcium
+21,1510,"Stockage de matières, produits ou substances combustibles dans des entrepôts couverts"
+22,1511,Entrepôts frigorifiques
+23,1530,"Dépôts de papiers, cartons ou matériaux combustibles analogues"
+24,1531,"Stockages, par voie humide (immersion ou aspersion), de bois non traité chimiquement"
+25,1532,Stockage de bois ou de matériaux combustibles analogues
+27,1630,Emploi ou stockage de lessives de soude ou de potasse caustique
+30,1716,Substances radioactives
+31,1735,"Dépôt, entreposage ou stockage de substances radioactives"
+33,1978,Solvants organiques
+36,2101,Élevage de bovins
+37,2102,Élevage de porcs
+38,2110,Élevage de lapins
+39,2111,Élevage de volailles
+40,2112,Couvoirs
+41,2113,Élevage d'animaux carnassiers à fourrure
+42,2120,Élevage de chiens
+43,2130,Piscicultures
+44,2140,Présentation au public d'animaux d'espèces non domestiques
+45,2150,"Élevage de coléoptères, diptères, orthoptères"
+46,2160,"Silos et installations de stockage de céréales, grains, produits alimentaires ..."
+47,2170,"Fabrication des engrais, amendement et support de culture"
+48,2171,"Dépôts de fumiers, engrais et supports de culture"
+49,2175,Dépôts d'engrais liquides
+51,2210,Abattage d'animaux
+52,2220,Préparation de produits alimentaires d'origine végétale
+53,2221,Préparation de produits alimentaires d'origine animale
+54,2230,Transformation etc. du lait
+55,2240,"Extraction et traitement des huiles végétales, huiles animales et corps gras"
+56,2250,Production par distillation d'alcools de bouche d'origine agricole
+57,2251,"Préparation, conditionnement de vins"
+58,2260,"Broyage, concassage de substances végétales"
+59,2265,Fermentation acétique en milieu liquide
+60,2275,Fabrication de levure et [...]
+62,2311,"Traitement par battage, cardage, lavage etc. de fibres d'origine végétale"
+63,2315,Fabrication de fibres végétales artificielles
+64,2321,Atelier de fabrication de tissus
+65,2330,"Teinture, impression, apprêt, enduction, blanchiment et délavage de matières textiles"
+66,2340,"Blanchisserie, laverie de linge"
+67,2345,Utilisation de solvants pour le nettoyage à sec et le traitement de textiles ou vêtements
+68,2350,"Tanneries, mégisseries, ..."
+69,2351,Teintureries et pigmentation de peaux
+70,2355,Dépôts de peaux
+71,2360,"Fabrication de chaussures, maroquinerie ou travail du cuir"
+73,2410,Travail du bois et matériaux combustibles analogues
+74,2415,Mise en œuvre de produits de préservation de bois et matériaux dérivés
+75,2420,Fabrication de charbon de bois
+76,2430,Préparation de la pâte à papier
+77,2440,Fabrication de papier carton
+78,2445,"Transformation du papier, carton"
+79,2450,Imprimeries ou ateliers de reproduction graphique sur tout support
+81,2510,Exploitation de carrières
+82,2515,"Broyage, concassage, criblage ... de pierres, cailloux, minerais et autres produits minéraux naturels ou artificiels ou de déchets non dangereux inertes"
+83,2516,Station de transit de produits minéraux pulvérulents
+84,2517,Station de transit de produits minéraux autres
+85,2518,Production de béton prêt à l'emploi
+86,2520,"Fabrication de ciments, chaux, plâtres"
+87,2521,Station d'enrobage au bitume de matériaux routiers
+88,2522,Fabrication de produits en béton par procédés mécaniques
+89,2523,Fabrication de produits céramiques et réfractaires
+90,2524,"Taillage, sciage et polissage de minéraux naturels ou artificiels"
+91,2530,Fabrication et travail du verre
+92,2531,Travail chimique du verre ou du cristal
+93,2540,"Lavoirs à houille, minerais, minéraux ou résidus métallurgiques"
+94,2541,"Agglomération de houille, minerai de fer, fabrication de graphite artificiel – Grillage ou frittage de minerai métallique"
+95,2545,"Fabrication d'acier, fer, fonte, ferro-alliage"
+96,2546,"Traitement industriel des minerais non ferreux, élaboration des métaux et alliages non ferreux"
+97,2547,Fabrication de silico-alliages ou carbure de silicium
+98,2550,Fonderie de produits moulés ... contenant du plomb
+99,2551,Fonderie de métaux et alliages ferreux
+100,2552,Fonderie de métaux et alliages non-ferreux
+101,2560,Travail mécanique des métaux et alliages
+102,2561,"Trempé recuit, revenu des métaux et alliages"
+103,2562,Chauffage et traitement industriels par bains de sels fondus
+104,2563,Nettoyage lessiviel
+105,2564,"Nettoyage, dégraissage, décapage de surfaces utilisant des liquides organohalogénés ou des solvants organiques"
+106,2565,Revêtement métallique ou traitement de surfaces par voie électrolytique ou chimique
+107,2566,Décapage des métaux par traitement thermique
+108,2567,"Galvanisation, étamage de métaux"
+109,2570,Émail
+110,2575,Emploi de matières abrasives
+112,2630,Fabrication de ou à base de détergents et savons
+113,2631,"Extraction par la vapeur des parfums, huiles essentielles"
+114,2640,"Fabrication industrielle de colorants et pigments organiques, minéraux et naturels"
+115,2660,Fabrication industrielle ou régénération de polymères
+116,2661,Transformation de polymères
+117,2662,Stockage de polymères
+118,2663,Stockage de pneumatiques et produits composés d'au moins 50 % de polymères
+119,2670,Fabrication d'accumulateurs et piles
+120,2680,Mise en œuvre industrielle d'organismes génétiquement modifiés
+121,2681,Mise en œuvre industrielle de micro-organismes naturels pathogènes
+122,2690,Préparation de produits opothérapiques
+124,2710,Collecte de déchets apportés par le producteur initial
+125,2711,"Transit, regroupement, tri ou préparation de déchets d'équipements électriques et électroniques"
+126,2712,"Stockage, dépollution, démontage, découpage ou broyage de véhicules hors d'usage"
+127,2713,"Transit, regroupement, tri ou préparation de métaux ou de déchets de métaux non dangereux"
+128,2714,"Transit, regroupement, tri ou préparation de déchets non dangereux de papiers/cartons, plastiques, caoutchouc, textiles, bois"
+129,2715,"Transit, regroupement ou tri de déchets non dangereux de verre"
+130,2716,"Transit, regroupement, tri ou préparation de déchets non dangereux non inertes"
+131,2718,"Transit, regroupement ou tri de déchet dangereux"
+132,2719,Installation temporaire de transit de déchets issus de pollutions accidentelles marines ou fluviales ou de catastrophes naturelles
+133,2720,"Stockage de déchets résultant de la prospection, de l'extraction, du traitement et du stockage de ressources minérales ainsi que de l'exploitation de carrières"
+134,2730,Traitement de sous-produits d'origine animale
+135,2731,Dépôt de sous-produits animaux
+136,2740,Incinération de cadavres d'animaux de compagnie
+137,2750,Station d'épuration collective d'eaux résiduaires industrielles
+138,2751,Station d'épuration collective de déjections animales
+139,2752,Station d'épuration mixte
+140,2760,Stockage de déchets autres que ceux mentionnés à la rubrique 2720
+141,2770,Traitement thermique de déchets dangereux
+142,2771,Traitement thermique de déchets non dangereux
+143,2780,Compostage de déchets non dangereux ou matière végétale
+144,2781,Méthanisation de déchets non dangereux ou matière végétale
+145,2782,Autres traitements biologiques de déchets non dangereux
+146,2783,Déconditionnement de biodéchets
+147,2790,Traitement de déchets dangereux
+148,2791,Traitement de déchets non dangereux
+149,2792,Traitement de déchets contenant des PCB
+150,2793,Traitement de déchets d'explosifs
+151,2794,Broyage de déchets verts
+152,2795,"Lavage de fûts, conteneurs et citernes de transport de matières alimentaires, de matières dangereuses ou de déchets dangereux"
+153,2797,Gestion des déchets radioactifs
+154,2798,Installation temporaire de transit de déchets radioactifs
+156,2910,Installation de combustion
+157,2915,Procédés de chauffage
+158,2921,Refroidissement évaporatif par dispersion d'eau dans un flux d'air
+159,2925,Charge d'accumulateurs
+160,2930,Ateliers de réparation et d'entretien de véhicules et engins à moteurs
+161,2931,"Ateliers d'essais sur banc de moteurs à combustion interne ou à réaction, turbines"
+162,2940,"Application, cuisson, séchage de vernis, peinture, apprêt, colle, enduit, etc."
+163,2950,Traitement et développement des surfaces photosensibles
+164,2960,Captage de CO2
+165,2970,Stockage géologique de CO2
+166,2971,Installation de production de chaleur ou d'électricité à partir de combustibles solides de récupération
+167,2980,Installation terrestre de production d'électricité à partir de l'énergie mécanique du vent
+169,3110,Combustion
+170,3120,Raffinage de pétrole et de gaz
+171,3130,Production de coke
+172,3140,Gazéification ou liquéfaction de charbon ou autres combustibles
+173,3210,Grillage ou frittage de minerai métallique
+174,3220,Production de fonte ou d'acier
+175,3230,Transformation des métaux ferreux
+176,3240,Exploitation de fonderies de métaux ferreux
+177,3250,Transformation de métaux non ferreux
+178,3260,Traitement de surface
+179,3310,"Production de ciment, chaux ou oxyde de magnésium"
+180,3330,Fabrication du verre
+181,3340,Fusion de matières minérales
+182,3350,Fabrication de céramiques
+183,3410,Fabrication de produits chimiques organiques
+184,3420,Fabrication de produits chimiques inorganiques
+185,3430,Fabrication d'engrais
+186,3440,Fabrication de produits phytosanitaires ou biocides
+187,3450,Fabrication de produits pharmaceutiques
+188,3460,Fabrication d'explosifs
+189,3510,Traitement de déchets dangereux
+190,3520,Incinération ou coincinération de déchets
+191,3531,Élimination de déchets non dangereux
+192,3532,Valorisation de déchets non dangereux
+193,3540,Installation de stockage de déchets
+194,3550,Stockage temporaire de déchets
+195,3560,Stockage souterrain de déchets dangereux
+196,3610,"Fabrication de pâte à papier, papier, carton, panneaux de bois"
+197,3620,Prétraitement ou teinture de textiles
+198,3630,Tannage des peaux
+199,3641,Exploitation d'abattoirs
+200,3642,Traitement et transformation de matières premières en vue de la fabrication de produits alimentaires
+201,3643,Traitement et transformation du lait
+202,3650,Élimination ou recyclage de carcasses ou de sous-produits animaux
+203,3660,Élevage intensif
+204,3670,Traitement de surface de matières à l'aide de solvants organiques
+205,3680,Fabrication de carbone
+206,3690,Captage des flux de CO2
+207,3700,Préservation du bois
+208,3710,Traitement des eaux résiduaires
+210,4000,Substances et mélanges dangereux (définition et classification des)
+211,4001,Installations présentant un grand nombre de substances
+212,4110,Toxicité aiguë catégorie 1
+213,4120,Toxicité aiguë catégorie 2
+214,4130,Toxicité aiguë catégorie 3 / inhalation.
+215,4140,Toxicité aiguë catégorie 3 / orale
+216,4150,Toxicité spécifique pour certains organes cibles
+217,4210,Produits explosifs
+218,4220,Produits explosifs (stockage de)
+219,4240,Produits explosibles
+220,4310,Gaz inflammables catégorie 1 et 2.
+221,4320,Aérosols extrêmement inflammables ou inflammables [...]
+222,4321,Aérosols extrêmement inflammables ou inflammables [...]
+223,4330,Liquides inflammables de catégorie 1
+224,4331,Liquides inflammables de catégorie 2 ou catégorie 3
+225,4410,Substances et mélanges autoréactifs type A ou type B
+226,4411,"Substances et mélanges autoréactifs type C, D, E ou F"
+227,4420,Peroxydes organiques type A ou type B
+228,4421,Peroxydes organiques type C ou type D
+229,4422,Peroxydes organiques type E ou type F
+230,4430,Solides pyrophoriques catégorie 1.
+231,4431,Liquides pyrophoriques catégorie 1
+232,4440,"Solides comburants catégorie 1, 2 ou 3"
+233,4441,"Liquides comburants catégorie 1, 2 ou 3"
+234,4442,Gaz comburants catégorie 1
+235,4510,Dangereux pour l'environnement aquatique 1
+236,4511,Dangereux pour l'environnement aquatique 2
+237,4610,Substances ou mélanges auxquels est attribuée la mention de danger EUH014
+238,4620,"Substances et mélanges qui, au contact de l'eau, dégagent des gaz inflammables, catégorie 1"
+239,4630,Substances ou mélanges auxquels est attribuée la mention de danger EUH029
+240,4701,Nitrate d'ammonium.
+241,4702,Engrais solides simples et composés à base de nitrate d'ammonium
+242,4703,Nitrate d'ammonium ou d'engrais hors spécification
+243,4705,Nitrate de potassium et engrais composés (sous forme de comprimés ou de granulés)
+244,4706,Nitrate de potassium et engrais composés (sous forme de cristaux)
+245,4707,Pentoxyde d'arsenic
+246,4708,Trioxyde d'arsenic
+247,4709,Brome
+248,4710,Chlore
+249,4711,Composés de nickel
+250,4712,Ethylèneimine
+251,4713,Fluor
+252,4714,Formaldéhyde
+253,4715,Hydrogène
+254,4716,Chlorure d'hydrogène
+255,4717,Plombs alkyls
+256,4718,Gaz inflammables liquéfiés de catégorie 1 et 2
+257,4719,Acétylène
+258,4720,Oxyde d'éthylène
+259,4721,Oxyde de propylène
+260,4722,Méthanol
+261,4723,"4,4-méthylène-bis"
+262,4724,Isocyanate de méthyle
+263,4725,Oxygène
+264,4726,"2,4-diisocyanate de toluène"
+265,4727,Dichlorure de carbonyle (phosgène)
+266,4728,Arsine
+267,4729,Phosphine
+268,4730,Dichlorure de soufre
+269,4731,Trioxyde de soufre
+270,4732,Polychlorodibenzofuranes et polychlorodibenzodioxines
+271,4733,Cancérogènes
+272,4734,Produits pétroliers spécifiques et carburants de substitution
+273,4735,Ammoniac
+274,4736,Trifluorure de bore
+275,4737,Sulfure d'hydrogène
+276,4738,Pipéridine
+277,4739,Bis(2-dimethylaminoéthyl)(méthyl)amine
+278,4740,3-(2-Ethylhexyloxy)propylamine
+279,4741,Les mélanges d'hypochlorite de sodium
+280,4742,Propylamine
+281,4743,Acrylate de tert-butyl
+282,4744,2-méthyl-3-butènenitrile
+283,4745,"Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet)"
+284,4746,Acrylate de méthyle
+285,4747,3-Méthylpyridine
+286,4748,1-bromo-3-chloropropane
+287,4749,Perchlorate d'ammonium
+288,4755,Alcools de bouche d'origine agricole
+289,4801,"Houille, coke,..."
