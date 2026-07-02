@@ -1,0 +1,31 @@
+import pandas as pd
+
+
+df_long = pd.read_csv('result_trie.csv', dtype=str)
+df_court = pd.read_csv('table1_correspondances.csv', dtype=str)
+
+colonnes_a_nettoyer = ['date_modification', 'derniere_inspection']
+
+for col in colonnes_a_nettoyer:
+    if col in df_long.columns:
+        df_long[col] = df_long[col].str.replace('.0', '', regex=False)
+        df_long[col] = df_long[col].str.replace(' 00:00:00', '', regex=False)
+
+
+df_long['match_key'] = df_long['ICPE_A'].combine_first(df_long['ICPE_E']).combine_first(df_long['ICPE_D'])
+
+
+resultat = pd.merge(df_long, df_court, left_on='match_key', right_on='Code_ICPE', how='left')
+
+
+colonnes_court = [c for c in df_court.columns if c != 'Code_ICPE']
+
+for col in colonnes_court:
+    resultat[col] = resultat[col].fillna('Non trouvé')
+
+
+resultat = resultat.drop(columns=['match_key', 'Code_ICPE'])
+
+
+resultat.to_csv('fichier_fusionne_propre.csv', index=False, quoting=1)
+
