@@ -1,3 +1,5 @@
+#code qui a permis de merge le fichier de données de base et la liste de composants EDF, en completant les lignes du fichier de données avec ces informations complémentaires. Le merge s'est fait sur le numéro ICPE#
+
 import pandas as pd
 
 
