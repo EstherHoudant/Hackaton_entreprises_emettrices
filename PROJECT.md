@@ -32,10 +32,11 @@ L'enjeu de ce projet est de récupérer et de mettre sous un format facilement e
 2) Traiter les données 
 
 Une fois output_icpe_clean.csv récupéré il faut faire tourner le notebook Traitement_données_EDF2.ipynb pour lancer le traitement des données. Ce notebook utilise les bases de données récupérées sur georisques.gouv.fr. Le notebook épure les données puis s'intéresse aux trois colonnes présentant les codes ICPE associées à chaque entreprise. Il sépare ces codes en dupliquant les informations relatives à l'entreprise pour avoir une ligne par entreprise et par code ICPE. Ensuite, la base de donnée est liée à la nomenclature ICPE qui pour chaque ligne ayant un code ICPE, associe sa description officielle. Enfin, les deux bases de données souhaitées sont construites et enregistrées dans le dossier résultat. 
+Nous nous sommes penchés sur les flux, et nous avons consulté Marisol Garrousel, qui nous a recommandé de conserver les unités présentes dans le doc output_ICPE_with_NAF. On peut trouver les informations dans le doc Lecture_de_doc.
 
 3) Estimation de l'erreur
 
-Faire tourner le notebook Lecture_de_docs en entier. Il retourne un fichier csv ,identique à résultats_table_1 à une colonne près, qui contient un booléen notant la confiance du siret et des codes postaux. 
+Faire tourner le notebook Lecture_de_docs en entier. Il retourne un fichier csv ,identique à résultats_table_1 à une colonne près, qui contient un booléen notant la confiance du siret et des codes postaux. C'est une estimation simpliste, qui renvoie True si les départements correspondent et false sinon. Le False est à prendre avec confiance, mais le true veut simplement dire que le numéro siret correspond à une entreprise du même code postal (nous avons considéré que cela suffisait à se rassurer sur le fait que le siret était le bon, mais le taux de confiance n'est pas à 100%)
 
 # Problèmes rencontrés #
 
