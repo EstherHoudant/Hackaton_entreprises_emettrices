@@ -15,14 +15,28 @@ L'enjeu de ce projet est de récupérer et de mettre sous un format facilement e
    EDF nous a fourni une liste de composants chimiques, et le but est d'identifier les composants utilisés par chaque entreprise et d'en caractériser les flux (en entrée et sortie). 
 
 
-Workflow du projet : 
+# Workflow du projet : #
 
-Usage:
-    python extract_icpe.py
+1) Extraire les données d'internet
 
-Dépendances:
-    pip install requests pandas xlrd tqdm
+• Les données Géorisques : 
+- Le programme python extract_icpe.py dans le dossier extraction permet de collecter des fichiers excel propre à chaque entreprise sur le site du gouvernement géorisques. On obtient ainsi deux fichiers csv : output_icpe.csv (les données brutes) et output_icpe_clean.csv (le fichier .csv un peu nettoyé). ATTENTION : il faut quelques heures (envrion 4) pour que le programme charge toutes les données. C'est pourquoi dans ce notebook vous trouverez un fichier output.csv déjà présent pour vous éviter d'attendre. Mais si vous souhaitez une mise à jour de certaines données, il suffit de le refaire tourner pour télécharger les nouvelles informations. 
 
-Le programme python extract_icpe.py permet de collecter des fichiers excel propre à chaque entreprise sur le site du gouvernement géorisques. On obtient ainsi deux fichiers csv : output_icpe.csv (les données brutes) et output_icpe_clean.csv (le fichier .csv un peu nettoyé). ATTENTION : il faut quelques heures (envrion 4) pour que le programme charge toutes les données. C'est pourquoi dans ce notebook vous trouverez un fichier output.csv déjà présent pour vous éviter d'attendre. Mais si vous souhaitez une mise à jour de certaines données, il suffit de le refaire tourner. 
-Une fois output_icpe_clean.csv récupéré il faut faire tourner le notebook naf.ipynb pour merge ce fichier avec un autre csv contenant les données NAF à 5 chiffres. A la fin de ce notebook on commence à nettoyé davantage les colonnes pour rentre le dataset plus lisible. 
-Le notebook Traitement_donnees_EDF.ipynb est un notebook qui utilise la base de données récupérées sur georisques.gouv.fr. Le notebook épure les données puis s'intéresse aux trois colonnes présentant les codes ICPE associées à chaque entreprise. Il sépare ces codes en dupliquant les informations relatives à l'entreprise pour avoir une ligne par entreprise et par code ICPE. Ensuite, la base de donnée est liée à la nomenclature ICPE qui pour chaque ligne ayant un code ICPE, associe sa description officielle. Le notebook renvoie un fichier result_trie qui contient la base de donnée finale.
+- Pour automatiser le téléchargement des données sur géorisques nous avons besoin de l'identifiant de chaque entreprise. Pour ce faire il faut le document export.csv dans le dossier extraction. Il se trouve à l'adresse suivante : https://www.georisques.gouv.fr/webappReport/ws/installations/sitesdetails/detailsites_2026-07-03.csv?&fieldOrderBy=etab&orderByAsc=true&size=10&isExport=true&start=0&size=0 (ou alors aller à l'adresse suivante : https://www.georisques.gouv.fr/risques/installations/donnees?page=1 , faire une recherche sans filtre en bas de page et télécharger le fichier).
+
+- Pour télécharger le fichier result : https://mapsref.brgm.fr/wxs/georisques/georisques_dl?&service=wfs&version=2.0.0&request=getfeature&typename=InstallationsClassees&outputformat=CSVTEXT (ou alors aller sur le site https://www.georisques.gouv.fr/donnees/bases-de-donnees/installations-industrielles, en bas de la page : nationale -> csv -> télécharger)
+
+• SIREN : 
+- Il suffit de cliquer sur le lien au début du notebook pour télécharger la base de données SIREN et placer le fichier à l'endroit indiqué. 
+
+2) Traiter les données 
+
+Une fois output_icpe_clean.csv récupéré il faut faire tourner le notebook Traitement_données_EDF2.ipynb pour lancer le traitement des données. Ce notebook utilise les bases de données récupérées sur georisques.gouv.fr. Le notebook épure les données puis s'intéresse aux trois colonnes présentant les codes ICPE associées à chaque entreprise. Il sépare ces codes en dupliquant les informations relatives à l'entreprise pour avoir une ligne par entreprise et par code ICPE. Ensuite, la base de donnée est liée à la nomenclature ICPE qui pour chaque ligne ayant un code ICPE, associe sa description officielle. Enfin, les deux bases de données souhaitées sont construites et enregistrées dans le dossier résultat. 
+
+3) Estimation de l'erreur
+
+Faire tourner le notebook Lecture_de_docs en entier. Il retourne un fichier csv ,identique à résultats_table_1 à une colonne près, qui contient un booléen notant la confiance du siret et des codes postaux. 
+
+# Problèmes rencontrés #
+
+Le principe du projet était de relier une liste de composant EDF avec les rubriques ICPE du gouvernement. Malgré nos longues recherches nous n'avons pas pu trouver de table de correspondance entre les deux jeux de données. Il aurait donc fallu faire une correspondance manuellement mais cela aurait pris un temps considérable. C'est pourquoi, avec l'accord de notre encadrante, nous avons utiliser ClaudeAI Pro pour effectuer ce travail. Les documents transmis, le prompt ainsi que les documents et la réponse sont dans le notebook Prompt_ClaudeAI.ipynb . 
